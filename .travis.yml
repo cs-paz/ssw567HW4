@@ -3,4 +3,5 @@ python:
   - "3.5"
 # command to run tests
 script:
-  - python3 -m test_GetGithubDetails.py
+  - source pytest-env/bin/activate
+  - pytest
