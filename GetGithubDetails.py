@@ -29,3 +29,4 @@ def getGithubDetails(id):
 if __name__ == '__main__':
     id = input('Enter Github user ID: ')
     getGithubDetails(id)
+    
