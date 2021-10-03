@@ -21,3 +21,8 @@ def test_getGithubDetails2():
 
 def test_getGithubDetails3(): 
   assert getGithubDetails('this does not exist') == []
+
+if __name__ == '__main__':
+    test_getGithubDetails1()
+    test_getGithubDetails2()
+    test_getGithubDetails3()
