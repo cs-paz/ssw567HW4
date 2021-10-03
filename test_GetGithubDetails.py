@@ -14,6 +14,7 @@ def test_getGithubDetails1():
     'Repo: ssw567HW0 Number of commits: 2',
     'Repo: ssw567HW1 Number of commits: 3',
     'Repo: ssw567HW2 Number of commits: 8',
+    'Repo: ssw567HW4 Number of commits: 10'
   ]
 
 def test_getGithubDetails2(): 
