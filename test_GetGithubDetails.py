@@ -1,10 +1,5 @@
 from GetGithubDetails import getGithubDetails
 import unittest
-from unittest import mock
-
-@mock.patch('GetGithubDetails.getGithubDetails')
-def mock_getGithubDetails(mock_getGithubDetails):
-    mock_getGithubDetails.return_value = []
 
 class TestGetGithubDetails(unittest.TestCase):
   # removed this function and replaced to check the length instead
